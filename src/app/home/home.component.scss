@@ -44,6 +44,18 @@
       background: url("../../assets/button.svg");
       background-repeat: no-repeat;
     }
+    .button-color{
+      font-family: Bree, sans-serif;
+      font-size: 20px;
+      text-transform: uppercase;
+      color: #ffffff;
+      border: 0;
+      height: 65px;
+      width: 300px;
+      margin: 0 0 10px 0;
+      background: url("../../assets/button-color.svg");
+      background-repeat: no-repeat;
+    }
   }
   .burger-menu{
     height: 60px;
