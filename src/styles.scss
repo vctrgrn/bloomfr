@@ -1,5 +1,12 @@
 /* You can add global styles to this file, and also import other style files */
-
+body{
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(
+      0deg,#b3b6eb,#e98a98);
+  background-size: 120% 120%;
+  animation: gradient-animation 20s ease infinite;
+}
 .d-flex {
   display: flex;
 }
