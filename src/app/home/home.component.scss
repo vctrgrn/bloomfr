@@ -1,0 +1,27 @@
+.container {
+  display: grid;
+  grid-template-columns: 1fr;
+  height: 100vh;
+  @media screen and(min-width: 1024px){
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .header {
+    align-self: flex-start;
+    @media screen and(min-width: 1024px){
+      grid-column: 1 / sspan 2;
+    }
+  }
+  .main {
+    @media screen and(min-width: 1024px){
+        grid-column: 2;
+        grid-row: 2;
+    }
+  }
+  .boutons {
+    justify-content: center;
+    @media screen and(min-width: 1024px){
+      grid-column: 2;
+      grid-row: 3;
+    }
+  }
+}
